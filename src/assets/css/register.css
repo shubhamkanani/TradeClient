@@ -1,0 +1,87 @@
+.label_main.active {
+  background-color: #eceff3;
+  border-bottom: 1px solid #4f73d7 !important;
+}
+.label_main.active label {
+  color: #4f73d7;
+}
+.reg-form-group {
+  padding: 5px 15px;
+  background-color: #eceff3;
+  border-bottom: 1px solid #000 !important;
+  border: none;
+  margin-bottom: 20px;
+}
+.reg-form-group label {
+  color: #000;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+}
+.reg-form-group input.form-control,
+.reg-form-group select.form-control {
+  background-color: #eceff3;
+  color: #000;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+.reg-form-group.label_main input.form-control:focus,
+.reg-form-group.label_main select.form-control:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.main_heading {
+  font-size: 22px;
+  /* margin-bottom: 20px; */
+  font-weight: bold;
+}
+.date_of_birth {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.use-instead {
+  color: #1a0cf9;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dob-description {
+  font-family: monospace;
+}
+
+.already-account {
+  text-align: center;
+}
+
+.login-url {
+  color: #1a0cf9;
+  cursor: pointer;
+}
+
+.main-content {
+  text-align: center;
+  font-size: 20px;
+}
+
+.label_main label {
+  color: #000;
+}
+
+.create-account-btn {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+.create-account-btn .new-account-btn {
+  width: 430px;
+}
+
+/* .reg-divider{
+
+} */
